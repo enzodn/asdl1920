@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: it.unicam.cs.asdl1920.mp1.GestoreAuleTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 0.083 s <<< FAILURE! - in it.unicam.cs.asdl1920.mp1.GestoreAuleTest
+testAddAula  Time elapsed: 0.045 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.GestoreAuleTest.testAddAula(GestoreAuleTest.java:27)
+
+testGetAule  Time elapsed: 0.011 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp1.GestoreAuleTest.testGetAule(GestoreAuleTest.java:44)
+
+testCercaAuleLibere  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.GestoreAuleTest.testCercaAuleLibere(GestoreAuleTest.java:75)
+

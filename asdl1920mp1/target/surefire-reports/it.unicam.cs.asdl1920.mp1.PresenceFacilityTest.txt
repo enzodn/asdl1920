@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: it.unicam.cs.asdl1920.mp1.PresenceFacilityTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.064 s <<< FAILURE! - in it.unicam.cs.asdl1920.mp1.PresenceFacilityTest
+testSatisfies  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.PresenceFacilityTest.testSatisfies(PresenceFacilityTest.java:16)
+
+testPresenceFacility  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.PresenceFacilityTest.testPresenceFacility(PresenceFacilityTest.java:37)
+
+testEqualsObject  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.PresenceFacilityTest.testEqualsObject(PresenceFacilityTest.java:75)
+
+testGetDescrizione  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Presenza di un proiettore HDMI> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.PresenceFacilityTest.testGetDescrizione(PresenceFacilityTest.java:64)
+
+testGetCodice  Time elapsed: 0.042 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <HDMI> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.PresenceFacilityTest.testGetCodice(PresenceFacilityTest.java:58)
+

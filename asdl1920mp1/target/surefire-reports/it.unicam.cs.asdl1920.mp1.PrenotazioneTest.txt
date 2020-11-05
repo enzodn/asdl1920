@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: it.unicam.cs.asdl1920.mp1.PrenotazioneTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 7, Errors: 1, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in it.unicam.cs.asdl1920.mp1.PrenotazioneTest
+testGetDocente  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Luca Tesei> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.PrenotazioneTest.testGetDocente(PrenotazioneTest.java:118)
+
+testPrenotazione  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.PrenotazioneTest.testPrenotazione(PrenotazioneTest.java:61)
+
+testCompareTo  Time elapsed: 0.008 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.PrenotazioneTest.testCompareTo(PrenotazioneTest.java:187)
+
+testGetTimeSlot  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp1.PrenotazioneTest.testGetTimeSlot(PrenotazioneTest.java:104)
+
+testGetAula  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <it.unicam.cs.asdl1920.mp1.Aula@ffffffff> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.PrenotazioneTest.testGetAula(PrenotazioneTest.java:87)
+
+testEqualsObject  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.PrenotazioneTest.testEqualsObject(PrenotazioneTest.java:151)
+
+testHashCode  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.PrenotazioneTest.testHashCode(PrenotazioneTest.java:46)
+
+testGetMotivo  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Lezione ASDL> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.PrenotazioneTest.testGetMotivo(PrenotazioneTest.java:132)
+

@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: it.unicam.cs.asdl1920.mp1.QuantitativeFacilityTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in it.unicam.cs.asdl1920.mp1.QuantitativeFacilityTest
+testQuantitativeFacility  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.QuantitativeFacilityTest.testQuantitativeFacility(QuantitativeFacilityTest.java:52)
+
+testSatisfies  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.QuantitativeFacilityTest.testSatisfies(QuantitativeFacilityTest.java:27)
+
+testGetQuantity  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.QuantitativeFacilityTest.testGetQuantity(QuantitativeFacilityTest.java:78)
+
+testGetDescrizione  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Presenza posti a sedere normali> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.QuantitativeFacilityTest.testGetDescrizione(QuantitativeFacilityTest.java:69)
+
+testGetCodice  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <POSTI> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.QuantitativeFacilityTest.testGetCodice(QuantitativeFacilityTest.java:63)
+

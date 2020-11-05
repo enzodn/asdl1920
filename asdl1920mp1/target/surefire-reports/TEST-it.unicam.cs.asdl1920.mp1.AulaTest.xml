@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.095" tests="15" errors="0" skipped="0" failures="14">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/luca/Documents/Dropbox/Documenti/Codice/workspace/asdl1920mp1-traccia/target/test-classes:/Users/luca/Documents/Dropbox/Documenti/Codice/workspace/asdl1920mp1-traccia/target/classes:/Users/luca/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/Users/luca/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/luca/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/luca/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/Users/luca/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/Users/luca/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Rome"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/luca/Documents/Dropbox/Documenti/Codice/workspace/asdl1920mp1-traccia/target/surefire/surefirebooter5158972835933113345.jar /Users/luca/Documents/Dropbox/Documenti/Codice/workspace/asdl1920mp1-traccia/target/surefire 2019-11-05T21-10-56_445-jvmRun1 surefire9138453272513298090tmp surefire_03317164061380117376tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/luca/Documents/Dropbox/Documenti/Codice/workspace/asdl1920mp1-traccia/target/test-classes:/Users/luca/Documents/Dropbox/Documenti/Codice/workspace/asdl1920mp1-traccia/target/classes:/Users/luca/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/Users/luca/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/luca/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/luca/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:/Users/luca/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.5.1/junit-jupiter-engine-5.5.1.jar:/Users/luca/.m2/repository/org/junit/platform/junit-platform-engine/1.5.1/junit-platform-engine-1.5.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/luca"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/luca/Documents/Dropbox/Documenti/Codice/workspace/asdl1920mp1-traccia"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/luca/Documents/Dropbox/Documenti/Codice/workspace/asdl1920mp1-traccia/target/surefire/surefirebooter5158972835933113345.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_25-b17"/>
+    <property name="user.name" value="luca"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/luca/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/9r/g0621dhs331d2fppssz93y0h0000gn/T/"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="user.dir" value="/Users/luca/Documents/Dropbox/Documenti/Codice/workspace/asdl1920mp1-traccia"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/luca/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.25-b02"/>
+    <property name="java.ext.dirs" value="/Users/luca/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testRemovePrenotazione" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.004">
+    <failure message="Expected java.lang.NullPointerException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testRemovePrenotazione(AulaTest.java:408)
+</failure>
+  </testcase>
+  <testcase name="testAddFacility" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.003">
+    <failure message="expected: &lt;[Facility [codice=null, descrizione=null], Facility [codice=null, descrizione=null]]&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;[Facility [codice=null, descrizione=null], Facility [codice=null, descrizione=null]]&gt; but was: &lt;null&gt;	at it.unicam.cs.asdl1920.mp1.AulaTest.testAddFacility(AulaTest.java:256)</failure>
+  </testcase>
+  <testcase name="testGetLocation" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.004">
+    <failure message="expected: &lt;Polo Lodovici Piano Terra&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Polo Lodovici Piano Terra> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testGetLocation(AulaTest.java:206)
+]]></failure>
+  </testcase>
+  <testcase name="testGetPrenotazioni" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.011">
+    <failure message="expected: &lt;[]&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <[]> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testGetPrenotazioni(AulaTest.java:216)
+]]></failure>
+  </testcase>
+  <testcase name="testCompareTo" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.001">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testCompareTo(AulaTest.java:155)
+]]></failure>
+  </testcase>
+  <testcase name="testAulaStringStringSetOfFacility" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.014">
+    <failure message="Expected java.lang.NullPointerException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testAulaStringStringSetOfFacility(AulaTest.java:92)
+</failure>
+  </testcase>
+  <testcase name="testAddPrenotazione" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.007">
+    <failure message="Expected java.lang.NullPointerException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testAddPrenotazione(AulaTest.java:374)
+</failure>
+  </testcase>
+  <testcase name="testGetNome" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.001">
+    <failure message="expected: &lt;LA1&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <LA1> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testGetNome(AulaTest.java:197)
+]]></failure>
+  </testcase>
+  <testcase name="testEqualsObject" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.009">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testEqualsObject(AulaTest.java:134)
+]]></failure>
+  </testcase>
+  <testcase name="testAulaStringString" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.002">
+    <failure message="Expected java.lang.NullPointerException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testAulaStringString(AulaTest.java:57)
+</failure>
+  </testcase>
+  <testcase name="testHashCode" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.001"/>
+  <testcase name="testRemovePrenotazioniBefore" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.002">
+    <failure message="Expected java.lang.NullPointerException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testRemovePrenotazioniBefore(AulaTest.java:440)
+</failure>
+  </testcase>
+  <testcase name="testSatisfiesFacilities" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.003">
+    <failure message="Expected java.lang.NullPointerException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testSatisfiesFacilities(AulaTest.java:332)
+</failure>
+  </testcase>
+  <testcase name="testIsFree" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.001">
+    <failure message="Expected java.lang.NullPointerException to be thrown, but nothing was thrown." type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testIsFree(AulaTest.java:270)
+</failure>
+  </testcase>
+  <testcase name="testGetFacilities" classname="it.unicam.cs.asdl1920.mp1.AulaTest" time="0.001">
+    <failure message="expected: &lt;[Facility [codice=null, descrizione=null], Facility [codice=null, descrizione=null], Facility [codice=null, descrizione=null]]&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;[Facility [codice=null, descrizione=null], Facility [codice=null, descrizione=null], Facility [codice=null, descrizione=null]]&gt; but was: &lt;null&gt;	at it.unicam.cs.asdl1920.mp1.AulaTest.testGetFacilities(AulaTest.java:188)</failure>
+  </testcase>
+</testsuite>

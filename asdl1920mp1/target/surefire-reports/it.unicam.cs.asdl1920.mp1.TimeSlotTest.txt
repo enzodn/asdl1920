@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: it.unicam.cs.asdl1920.mp1.TimeSlotTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.079 s <<< FAILURE! - in it.unicam.cs.asdl1920.mp1.TimeSlotTest
+testGetStart  Time elapsed: 0.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <java.util.GregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Rome",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=169,lastRule=java.util.SimpleTimeZone[id=Europe/Rome,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=?,YEAR=2019,MONTH=10,WEEK_OF_YEAR=?,WEEK_OF_MONTH=?,DAY_OF_MONTH=4,DAY_OF_YEAR=?,DAY_OF_WEEK=?,DAY_OF_WEEK_IN_MONTH=?,AM_PM=0,HOUR=11,HOUR_OF_DAY=11,MINUTE=0,SECOND=0,MILLISECOND=?,ZONE_OFFSET=?,DST_OFFSET=?]> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.TimeSlotTest.testGetStart(TimeSlotTest.java:65)
+
+testTimeSlot  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.TimeSlotTest.testTimeSlot(TimeSlotTest.java:42)
+
+testToString  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[4/11/2019 11.0 - 4/11/2019 13.0]> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.TimeSlotTest.testToString(TimeSlotTest.java:214)
+
+testCompareTo  Time elapsed: 0.021 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.TimeSlotTest.testCompareTo(TimeSlotTest.java:116)
+
+testGetStop  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <java.util.GregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Europe/Rome",offset=3600000,dstSavings=3600000,useDaylight=true,transitions=169,lastRule=java.util.SimpleTimeZone[id=Europe/Rome,offset=3600000,dstSavings=3600000,useDaylight=true,startYear=0,startMode=2,startMonth=2,startDay=-1,startDayOfWeek=1,startTime=3600000,startTimeMode=2,endMode=2,endMonth=9,endDay=-1,endDayOfWeek=1,endTime=3600000,endTimeMode=2]],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=?,YEAR=2019,MONTH=10,WEEK_OF_YEAR=?,WEEK_OF_MONTH=?,DAY_OF_MONTH=4,DAY_OF_YEAR=?,DAY_OF_WEEK=?,DAY_OF_WEEK_IN_MONTH=?,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=0,SECOND=0,MILLISECOND=?,ZONE_OFFSET=?,DST_OFFSET=?]> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.TimeSlotTest.testGetStop(TimeSlotTest.java:76)
+
+testEqualsObject  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.TimeSlotTest.testEqualsObject(TimeSlotTest.java:91)
+
+testHashCode  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.TimeSlotTest.testHashCode(TimeSlotTest.java:31)
+
+testOverlapsWith  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.TimeSlotTest.testOverlapsWith(TimeSlotTest.java:164)
+

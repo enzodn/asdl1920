@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: it.unicam.cs.asdl1920.mp3.LCSSolverTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 7, Errors: 2, Skipped: 0, Time elapsed: 0.073 s <<< FAILURE! - in it.unicam.cs.asdl1920.mp3.LCSSolverTest
+testLCSSolver  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp3.LCSSolverTest.testLCSSolver(LCSSolverTest.java:30)
+
+testEqualsObject  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp3.LCSSolverTest.testEqualsObject(LCSSolverTest.java:54)
+
+testIsSolved  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp3.LCSSolverTest.testIsSolved(LCSSolverTest.java:69)
+
+testGetLengthOfSolution1  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp3.LCSSolverTest.testGetLengthOfSolution1(LCSSolverTest.java:76)
+
+testGetLengthOfSolution2  Time elapsed: 0.012 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp3.LCSSolverTest.testGetLengthOfSolution2(LCSSolverTest.java:102)
+
+testHashCode  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp3.LCSSolverTest.testHashCode(LCSSolverTest.java:24)
+
+testGetOneSolution1  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp3.LCSSolverTest.testGetOneSolution1(LCSSolverTest.java:89)
+
+testGetOneSolution2  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp3.LCSSolverTest.testGetOneSolution2(LCSSolverTest.java:115)
+
+testIsCommonSubsequence  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp3.LCSSolverTest.testIsCommonSubsequence(LCSSolverTest.java:127)
+

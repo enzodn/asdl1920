@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: it.unicam.cs.asdl1920.mp3.AllLCSsSolverTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 2, Skipped: 0, Time elapsed: 0.129 s <<< FAILURE! - in it.unicam.cs.asdl1920.mp3.AllLCSsSolverTest
+testLengthOfSolutions2  Time elapsed: 0.088 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp3.AllLCSsSolverTest.testLengthOfSolutions2(AllLCSsSolverTest.java:83)
+
+testGetLengthOfSolutions1  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp3.AllLCSsSolverTest.testGetLengthOfSolutions1(AllLCSsSolverTest.java:26)
+
+testGetSolutions1  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp3.AllLCSsSolverTest.testGetSolutions1(AllLCSsSolverTest.java:46)
+
+testGetSolutions2  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp3.AllLCSsSolverTest.testGetSolutions2(AllLCSsSolverTest.java:94)
+
+testCheckLCSs  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp3.AllLCSsSolverTest.testCheckLCSs(AllLCSsSolverTest.java:129)
+

@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: it.unicam.cs.asdl1920.mp1.AulaTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 14, Errors: 0, Skipped: 0, Time elapsed: 0.095 s <<< FAILURE! - in it.unicam.cs.asdl1920.mp1.AulaTest
+testRemovePrenotazione  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testRemovePrenotazione(AulaTest.java:408)
+
+testAddFacility  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[Facility [codice=null, descrizione=null], Facility [codice=null, descrizione=null]]> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testAddFacility(AulaTest.java:256)
+
+testGetLocation  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Polo Lodovici Piano Terra> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testGetLocation(AulaTest.java:206)
+
+testGetPrenotazioni  Time elapsed: 0.011 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[]> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testGetPrenotazioni(AulaTest.java:216)
+
+testCompareTo  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testCompareTo(AulaTest.java:155)
+
+testAulaStringStringSetOfFacility  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testAulaStringStringSetOfFacility(AulaTest.java:92)
+
+testAddPrenotazione  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testAddPrenotazione(AulaTest.java:374)
+
+testGetNome  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <LA1> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testGetNome(AulaTest.java:197)
+
+testEqualsObject  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testEqualsObject(AulaTest.java:134)
+
+testAulaStringString  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testAulaStringString(AulaTest.java:57)
+
+testRemovePrenotazioniBefore  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testRemovePrenotazioniBefore(AulaTest.java:440)
+
+testSatisfiesFacilities  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testSatisfiesFacilities(AulaTest.java:332)
+
+testIsFree  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testIsFree(AulaTest.java:270)
+
+testGetFacilities  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[Facility [codice=null, descrizione=null], Facility [codice=null, descrizione=null], Facility [codice=null, descrizione=null]]> but was: <null>
+	at it.unicam.cs.asdl1920.mp1.AulaTest.testGetFacilities(AulaTest.java:188)
+

@@ -1,0 +1,88 @@
+-------------------------------------------------------------------------------
+Test set: it.unicam.cs.asdl1920.mp2.RBTreeTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 14, Errors: 7, Skipped: 0, Time elapsed: 0.084 s <<< FAILURE! - in it.unicam.cs.asdl1920.mp2.RBTreeTest
+testGetBlackHeight  Time elapsed: 0.037 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetBlackHeight(RBTreeTest.java:120)
+
+testGetCount  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetCount(RBTreeTest.java:90)
+
+testBRTreeE  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testBRTreeE(RBTreeTest.java:39)
+
+testGetRoot  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetRoot(RBTreeTest.java:251)
+
+testGetSize  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetSize(RBTreeTest.java:271)
+
+testInOrderVisit  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <[]> but was: <null>
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testInOrderVisit(RBTreeTest.java:322)
+
+testContains  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testContains(RBTreeTest.java:62)
+
+testGetPredecessor  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetPredecessor(RBTreeTest.java:234)
+
+testRemove1  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <-1>
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testRemove1(RBTreeTest.java:753)
+
+testRemove2  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testRemove2(RBTreeTest.java:869)
+
+testRemove3  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testRemove3(RBTreeTest.java:1016)
+
+testGetNumberOfNodes  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetNumberOfNodes(RBTreeTest.java:203)
+
+testGetMaximum  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetMaximum(RBTreeTest.java:162)
+
+testBRTree  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testBRTree(RBTreeTest.java:28)
+
+testGetNodeOf  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetNodeOf(RBTreeTest.java:180)
+
+testGetMinimum  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetMinimum(RBTreeTest.java:142)
+
+testInsert1  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testInsert1(RBTreeTest.java:379)
+
+testInsert2  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testInsert2(RBTreeTest.java:494)
+
+testInsert3  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testInsert3(RBTreeTest.java:676)
+
+testIsEmpty  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testIsEmpty(RBTreeTest.java:357)
+
+testGetSuccessor  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.NullPointerException to be thrown, but nothing was thrown.
+	at it.unicam.cs.asdl1920.mp2.RBTreeTest.testGetSuccessor(RBTreeTest.java:303)
+
